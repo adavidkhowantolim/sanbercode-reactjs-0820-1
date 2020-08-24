@@ -1,6 +1,6 @@
 Data Peserta Sanbercode Bootcamp ReactJS
-1. Nama: David Khowanto
-2. Email: adavidkhowantolim@gmail.com
-3. Sistem Operasi yang digunakan: Windows 10
-4. Akun GitHub: https://github.com/adavidkhowantolim
-5. Akun Telegram: DavidK 
+1. Nama                           : David Khowanto
+2. Email                          : adavidkhowantolim@gmail.com
+3. Sistem Operasi yang digunakan  : Windows 10
+4. Akun GitHub                    : https://github.com/adavidkhowantolim
+5. Akun Telegram                  : DavidK 
