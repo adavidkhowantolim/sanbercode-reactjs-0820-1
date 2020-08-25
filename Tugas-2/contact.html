@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <img id="logo" src="public/img/logo.png" width="200px"/>
+          <a class="active" href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="index.html">Home</a>
+        </div>
+      </nav>
+    </header>
+    <section class="content">
+      <h1 style="text-align:center">Hubungi Kami</h1>
+      <div>
+        <b>Kantor</b> : di jalan belum jadi<br>
+        <b>Nomor Telepon</b> : 08XX-XXXX-XXX<br>
+        <b>Email</b> : email@contoh.com<br>
+      </div>
+      <h1 style="text-align:center">Kirimkan Pesan</h1>
+      <form>
+        <table>
+          <tr>
+            <td width=40%><label for="nama">Nama</label></td>
+            <td><input type="text" id="nama" name="nama"></td>
+          </tr>
+          <tr>
+            <td width=40%><label for="email">Email</label></td>
+            <td><input type="text" id="email" name="email"></td>
+          </tr>
+          <tr>
+            <td width=40%><label for="jenis_kelamin">Jenis Kelamin</label></td>
+            <td>
+              <input type="radio" id="laki_laki" name="jenis_kelamin">Laki-laki<br>
+              <input type="radio" id="perempuan" name="jenis_kelamin">Perempuan
+            </td>    
+          </tr>
+          <tr>
+            <td width=40%><label for="pesan_anda">Pesan Anda</label></td>
+            <td><textarea id="pesan_anda" name="pesan_anda" cols="40" rows="5"></textarea></td>
+          </tr>
+        </table>
+        <input type="submit" value="Kirim">
+      </form>
+      <a href="index.html">Kembali Ke Index</a>
+    </section>
+  </body>
+</html>
