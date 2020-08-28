@@ -6,6 +6,11 @@ function halo(){
 }
 
 console.log(halo()) // "Halo Sanbers!" 
+/*
+  OUTPUT:
+    ############################# Soal: 1
+    Halo Sanbers!
+*/
 
 // Soal 2
 console.count("############################# Soal");
@@ -19,6 +24,11 @@ var num2 = 4
  
 var hasilKali = kalikan(num1, num2)
 console.log(hasilKali) // 48
+/*
+  OUTPUT:
+    ############################# Soal: 2
+    48
+*/
 
 // Soal 3
 console.count("############################# Soal");
@@ -33,8 +43,13 @@ var address = "Jalan belum jadi"
 var hobby = "Gaming"
  
 var perkenalan = introduce(name, age, address, hobby)
- // Menampilkan "Nama saya John, umur saya 30 tahun, alamat saya di jalan belum jadi, dan saya punya hobby yaitu Gaming!" 
+// Menampilkan "Nama saya John, umur saya 30 tahun, alamat saya di jalan belum jadi, dan saya punya hobby yaitu Gaming!" 
 console.log(perkenalan)
+/*
+  OUTPUT:
+    ############################# Soal: 3
+    Nama saya John, umur saya 30 tahun, alamat saya di Jalan belum jadi, dan saya punya hobby yaitu Gaming!
+*/
 
 // Soal 4
 console.count("############################# Soal");
@@ -49,7 +64,16 @@ arrayDaftarPeserta = {
 };
 
 console.log(arrayDaftarPeserta);
-
+/*
+  OUTPUT:
+    ############################# Soal: 4
+    {
+      nama: 'Asep',
+      'jenis kelamin': 'laki-laki',
+      hobi: 'baca buku',
+      'tahun lahir': 1992
+    }
+*/
 // Soal 5
 console.count("############################# Soal");
 
@@ -79,8 +103,17 @@ var data_buah = [
     "harga": 5000
   }
 ]
-
 console.log(data_buah[0]);
+/*
+  OUTPUT:
+    ############################# Soal: 5
+    {
+      nama: 'strawberry',
+      warna: 'merah',
+      'ada bijinya': 'tidak',
+      harga: 9000
+    }
+*/
 
 // Soal 6
 console.count("############################# Soal");
@@ -107,26 +140,6 @@ for (var i = 0; i < 20; i+=2){
 
 /* 
   OUTPUT :
-    ############################# Soal: 1
-    Halo Sanbers!
-    ############################# Soal: 2
-    48
-    ############################# Soal: 3
-    Nama saya John, umur saya 30 tahun, alamat saya di Jalan belum jadi, dan saya punya hobby yaitu Gaming!
-    ############################# Soal: 4
-    {
-      nama: 'Asep',
-      'jenis kelamin': 'laki-laki',
-      hobi: 'baca buku',
-      'tahun lahir': 1992
-    }
-    ############################# Soal: 5
-    {
-      nama: 'strawberry',
-      warna: 'merah',
-      'ada bijinya': 'tidak',
-      harga: 9000
-    }
     ############################# Soal: 6
     { nama: 'Movie 0', durasi: 0, genre: 'Genre 0', tahun: 1975 }
     { nama: 'Movie 1', durasi: 0.5, genre: 'Genre 10', tahun: 1980 }
