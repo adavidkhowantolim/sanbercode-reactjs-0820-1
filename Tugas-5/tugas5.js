@@ -128,39 +128,6 @@ for (var i = 0; i < 20; i+=2){
       harga: 9000
     }
     ############################# Soal: 6
-    { nama: 'Movie 0', durasi: 1, genre: 'Genre 0', tahun: 1975 }
-    { nama: 'Movie 1', durasi: 1.5, genre: 'Genre 10', tahun: 1980 }
-    { nama: 'Movie 2', durasi: 2, genre: 'Genre 20', tahun: 1985 }
-    { nama: 'Movie 3', durasi: 2.5, genre: 'Genre 30', tahun: 1990 }
-    { nama: 'Movie 4', durasi: 3, genre: 'Genre 40', tahun: 1995 }
-    { nama: 'Movie 5', durasi: 3.5, genre: 'Genre 50', tahun: 2000 }
-    { nama: 'Movie 6', durasi: 4, genre: 'Genre 60', tahun: 2005 }
-    { nama: 'Movie 7', durasi: 4.5, genre: 'Genre 70', tahun: 2010 }
-    { nama: 'Movie 8', durasi: 5, genre: 'Genre 80', tahun: 2015 }
-    { nama: 'Movie 9', durasi: 5.5, genre: 'Genre 90', tahun: 2020 }
-
-    D:\MyDoc\David\SanberCode\sanbercode-reactjs-0820-1\Tugas-5>node tugas5.js
-    ############################# Soal: 1
-    Halo Sanbers!
-    ############################# Soal: 2
-    48
-    ############################# Soal: 3
-    Nama saya John, umur saya 30 tahun, alamat saya di Jalan belum jadi, dan saya punya hobby yaitu Gaming!
-    ############################# Soal: 4
-    {
-      nama: 'Asep',
-      'jenis kelamin': 'laki-laki',
-      hobi: 'baca buku',
-      'tahun lahir': 1992
-    }
-    ############################# Soal: 5
-    {
-      nama: 'strawberry',
-      warna: 'merah',
-      'ada bijinya': 'tidak',
-      harga: 9000
-    }
-    ############################# Soal: 6
     { nama: 'Movie 0', durasi: 0, genre: 'Genre 0', tahun: 1975 }
     { nama: 'Movie 1', durasi: 0.5, genre: 'Genre 10', tahun: 1980 }
     { nama: 'Movie 2', durasi: 1, genre: 'Genre 20', tahun: 1985 }
