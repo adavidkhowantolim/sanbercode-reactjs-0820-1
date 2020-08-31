@@ -72,7 +72,13 @@ console.log(firstName, lastName, destination, occupation);
 /* SOAL 5
   OUTPUT:
   ------ SOAL 5 ------
-  Harry Potter Holt Hogwarts React Conf Deve-wizard Avocado
+  is the combinedES5 same as combinedES6 ? Yes
+  [
+    'Will', 'Chris',
+    'Sam',  'Holly',
+    'Gill', 'Brian',
+    'Noel', 'Maggie'
+  ]
 */
 console.log("------ SOAL 5 ------");
 
@@ -83,5 +89,5 @@ const combinedES5 = west.concat(east);
 const combinedES6 = [...west, ...east];
 
 //Driver Code
-
+console.log(`is the combinedES5 same as combinedES6 ? ${(JSON.stringify(combinedES5)==JSON.stringify(combinedES6)) ? "Yes" : "No"}`)
 console.log(combinedES6);
