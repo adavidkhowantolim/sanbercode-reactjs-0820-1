@@ -46,11 +46,25 @@ const newFunction = (firstName, lastName) => ({
   fullName : () => console.log(`${firstName} ${lastName}`)
 })
 
+//Driver Code 
 newFunction("William", "Imoh").fullName();
 
 /* SOAL 4
   OUTPUT:
   ------ SOAL 4 ------
-  William Imoh
+  Harry Potter Holt Hogwarts React Conf Deve-wizard Avocado
 */
-console.log("------ SOAL 3 ------")
+console.log("------ SOAL 4 ------");
+
+const newObject = {
+  firstName: "Harry",
+  lastName: "Potter Holt",
+  destination: "Hogwarts React Conf",
+  occupation: "Deve-wizard Avocado",
+  spell: "Vimulus Renderus!!!"
+}
+
+const {firstName, lastName, destination, occupation} = newObject;
+
+// Driver code
+console.log(firstName, lastName, destination, occupation);
