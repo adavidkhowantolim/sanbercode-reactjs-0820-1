@@ -68,3 +68,20 @@ const {firstName, lastName, destination, occupation} = newObject;
 
 // Driver code
 console.log(firstName, lastName, destination, occupation);
+
+/* SOAL 5
+  OUTPUT:
+  ------ SOAL 5 ------
+  Harry Potter Holt Hogwarts React Conf Deve-wizard Avocado
+*/
+console.log("------ SOAL 5 ------");
+
+const west = ["Will", "Chris", "Sam", "Holly"];
+const east = ["Gill", "Brian", "Noel", "Maggie"];
+
+const combinedES5 = west.concat(east);
+const combinedES6 = [...west, ...east];
+
+//Driver Code
+
+console.log(combinedES6);
