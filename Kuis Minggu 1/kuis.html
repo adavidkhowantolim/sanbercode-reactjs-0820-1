@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <style>
+      .bold{
+        font-weight: bold;
+      }
+      h1 {
+        font-weight: bold;
+        text-align: center;
+      }
+      td {
+        vertical-align: bottom;
+      }
+      table, td {
+        padding-bottom: 10px;
+      }
+      button {
+        border-radius:12px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form Pembelian Buah</h1>
+    <form>
+      <table>
+        <tr>
+          <td width = 45%><label class="bold" for="nama">Nama Pelanggan</label></td>
+          <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+        <tr>
+          <td><label class="bold" for="daftar">Daftar Item</label></td>
+          <td>
+            <div>
+              <input type="checkbox" id="Semangka" name="daftar">
+              <label for="Semangka">Semangka</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Jeruk" name="daftar">
+              <label for="Jeruk">Jeruk</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Nanas" name="daftar">
+              <label for="Nanas">Nanas</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Salak" name="daftar">
+              <label for="Salak">Salak</label>
+            </div>
+            <div>
+              <input type="checkbox" id="Anggur" name="daftar">
+              <label for="Anggur">Anggur</label>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <button type="submit" value="kirim">Kirim</button>
+    </form>
+  </body>
+</html>
