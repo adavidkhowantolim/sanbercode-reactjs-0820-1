@@ -28,3 +28,36 @@ var sheep = new Animal("shaun");
 console.log(sheep.name) // "shaun"
 console.log(sheep.legs) // 4
 console.log(sheep.cold_blooded) // false
+
+class Ape extends Animal {
+  
+  constructor(name){
+    super(name);
+    this._legs = 2;
+  }
+
+  yell(){
+    console.log("Auooo");
+  }
+
+}
+
+class Frog extends Animal {
+
+  constructor(name){
+    super(name);
+  }
+
+  jump(){
+    console.log("hop hop");
+  }
+
+}
+
+// Code class Ape dan class Frog di sini
+ 
+var sungokong = new Ape("kera sakti")
+sungokong.yell() // "Auooo"
+ 
+var kodok = new Frog("buduk")
+kodok.jump() // "hop hop" 
