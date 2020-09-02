@@ -19,3 +19,19 @@ readBooks(10000, books[0], function(time){
     })
   })
 });
+
+// Penambahan Logic
+// readBooks(10000, books[0], function(time){
+//   if (time >= books[1].timeSpent){
+//     readBooks(time, books[1], function(time){
+//       if (time >= books[2].timeSpent){
+//         readBooks(time, books[2], function(time){
+//           if (time >= books[3].timeSpent){
+//             readBooks(time, books[3], function(time){
+//             })
+//           }
+//         })
+//       }
+//     })
+//   }
+// });
