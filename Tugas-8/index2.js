@@ -1,3 +1,5 @@
+// SOAL 2
+
 var readBooksPromise = require('./promise.js')
  
 var books = [

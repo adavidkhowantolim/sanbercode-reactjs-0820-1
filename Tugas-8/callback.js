@@ -1,3 +1,5 @@
+// DIPAKAI DI index.js (SOAL 1)
+
 // di callback.js
 function readBooks(time, book, callback ) {
   console.log(`saya membaca ${book.name}`)

@@ -1,3 +1,5 @@
+// DIPAKAI DI index2.js (SOAL 2)
+
 // di file promise.js
 function readBooksPromise (time, book) {
   console.log(`saya mulai membaca ${book.name}`)
